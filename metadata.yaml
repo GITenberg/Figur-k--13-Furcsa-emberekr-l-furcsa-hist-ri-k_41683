@@ -1,0 +1,41 @@
+_repo: Figur-k--13-Furcsa-emberekr-l-furcsa-hist-ri-k_41683
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Gárdonyi, Géza
+    aliases:
+    - Gardoni, Geza
+    - Gardonyi, Geza
+    - Гардони, Геза
+    - Zigler, Géza
+    - Gardoni, Gezah
+    birthdate: 1863
+    deathdate: 1922
+    gutenberg_agent_id: '41300'
+    url: http://www.gutenberg.org/2009/agents/41300
+description: ''
+gutenberg_issued: '2012-12-21'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '41683'
+language: hu
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcc 'PH'
+- !lcsh 'Fiction'
+tableOfContents: 'Előszó, irta Mikszáth Kálmán -- A gizehi pergamenlapok -- A nagyapó
+  -- Lapszerkesztők párbaja -- Hogyan jutott Matongó a bájos Kanyerának, Mpvapva leányának,
+  kezéhez? -- A fekete kutya -- Az álló csillag -- Öngyilkosság öngyilkos nélkül --
+  Klein és Ábelesz -- A hétfejű sárkány és a műkedvelők -- A jövő évezredből: I. Öngyilkolás.
+  II. A jövő évezred marhái -- Én is mulattam Szent István napján -- Jób -- A pásztor
+  -- A Bárkonyosi Trombita -- Vendégek a másvilágról -- Begeken Kelemen gyémántjai
+  -- Czukorka -- Két bika -- Egy regény története -- Mikor a Szentföldet jártam --
+  A laskádi leányok -- Az én vendégem -- Trilliók a levegőben -- Fruzinka -- Vendég
+  mint bűnbak -- A régi istenek fölfedezése.'
+title: Figurák. (Furcsa emberekről furcsa históriák.)
+url: http://www.gutenberg.org/ebooks/41683
