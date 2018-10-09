@@ -1,166 +1,188 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
   xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
   xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
   <pgterms:ebook rdf:about="ebooks/41683">
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/41683.kindle.noimages">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/41683/41683-0.zip">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd7caf1ec4b0941b6942d58a59fac27dc">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          <rdf:Description rdf:nodeID="Nf01452dfe3c242ae973e942fe67bcd3c">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-22T14:20:19.599124</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">568825</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/41683"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/41683.kindle.images">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1078865</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-21T10:06:06</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106465</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N7c7b62b49fd040feabf9d987b7f153a2">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          <rdf:Description rdf:nodeID="N168015aaf7aa4697ae4f3353f538d8a7">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-22T14:20:17.367157</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/41683"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-12-21</dcterms:issued>
-    <dcterms:creator>
-      <pgterms:agent rdf:about="2009/agents/41300">
-        <pgterms:name>Gárdonyi, Géza</pgterms:name>
-      </pgterms:agent>
-    </dcterms:creator>
-    <dcterms:title>Figurák&#13;
-Furcsa emberekről furcsa históriák</dcterms:title>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/41683.epub.noimages">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-22T14:20:13.737197</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N39d7fa5726a549a5aa4914247fd84a26">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/41683"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">128669</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:license rdf:resource="license"/>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7</pgterms:downloads>
+    <dcterms:title>Figurák. (Furcsa emberekről furcsa históriák.)</dcterms:title>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N06bb2395065744028ab0d9ea7701c639">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>Fiction</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/41683.epub.images">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-22T14:20:13.171209</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/41683"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N75b67496565b431ead7c63a6aa86f442">
+          <rdf:Description rdf:nodeID="Nc62f17d1b7ee476ea04ed92441860173">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">411781</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/41683"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-20T05:20:55.655961</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">416631</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</pgterms:downloads>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="Nb36ea05eaaee4128a0b706cdd383068f">
-        <rdf:value>Text</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-      </rdf:Description>
-    </dcterms:type>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/41683/41683-0.txt">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-21T10:05:44</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/41683.epub.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-20T05:20:56.285943</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/41683"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">133458</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ncb999c1570bb40e68ccb201eaedcd340">
+          <rdf:Description rdf:nodeID="Nf05f88571b654e4c8bfed64dfe14bb20">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/41683"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">262314</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/41683.plucker">
-        <dcterms:isFormatOf rdf:resource="ebooks/41683"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-22T14:20:21.732096</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">180279</dcterms:extent>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/41683/41683-h/41683-h.htm">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc430854db79742d1ad9d32901a900244">
+          <rdf:Description rdf:nodeID="N0ee4096552f940fd9261c696279ad1e4">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-21T10:06:04</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/41683"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">309710</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/41683/41683-h/41683-h.htm">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">309710</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-21T10:06:04</dcterms:modified>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/41683.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/41683"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-20T05:21:01.247863</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11313</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N6f1e47e53815486695adc53eb150b298">
+          <rdf:Description rdf:nodeID="N0fbc419e97124e319e569988cb59dbb9">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/41683/41683-0.zip">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N780249558b074525bcced057f3b8709e">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/41683.kindle.noimages">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-20T05:21:01.099879</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">581406</dcterms:extent>
         <dcterms:isFormatOf rdf:resource="ebooks/41683"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">106465</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-21T10:06:06</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc386f9f636494aca9ec31edf0ffb0675">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+          <rdf:Description rdf:nodeID="N453a8ecab4eb40c69017e07264a945d9">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
+    <dcterms:tableOfContents>Előszó, irta Mikszáth Kálmán -- A gizehi pergamenlapok -- A nagyapó -- Lapszerkesztők párbaja -- Hogyan jutott Matongó a bájos Kanyerának, Mpvapva leányának, kezéhez? -- A fekete kutya -- Az álló csillag -- Öngyilkosság öngyilkos nélkül -- Klein és Ábelesz -- A hétfejű sárkány és a műkedvelők -- A jövő évezredből: I. Öngyilkolás. II. A jövő évezred marhái -- Én is mulattam Szent István napján -- Jób -- A pásztor -- A Bárkonyosi Trombita -- Vendégek a másvilágról -- Begeken Kelemen gyémántjai -- Czukorka -- Két bika -- Egy regény története -- Mikor a Szentföldet jártam -- A laskádi leányok -- Az én vendégem -- Trilliók a levegőben -- Fruzinka -- Vendég mint bűnbak -- A régi istenek fölfedezése.</dcterms:tableOfContents>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-12-21</dcterms:issued>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="Nd62989bd4998424cb930466df8e64cf9">
+      <rdf:Description rdf:nodeID="Nfe5c1713747145a89f74df28fe3652f0">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">hu</rdf:value>
       </rdf:Description>
     </dcterms:language>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/41683/41683-h.zip">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/41683/41683-0.txt">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-21T10:05:44</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nd6d8789a117f4eb98a97db13cddfae2a">
+          <rdf:Description rdf:nodeID="Nc0285fdcb0e84d7484bd15e5181043c6">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">262314</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/41683"/>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/41300">
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1863</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1922</pgterms:deathdate>
+        <pgterms:name>Gárdonyi, Géza</pgterms:name>
+        <pgterms:alias>Zigler, Géza</pgterms:alias>
+        <pgterms:alias>Gardoni, Gezah</pgterms:alias>
+        <pgterms:alias>Gardonyi, Geza</pgterms:alias>
+        <pgterms:alias>Gardoni, Geza</pgterms:alias>
+        <pgterms:alias>Гардони, Геза</pgterms:alias>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N2d22458e1f6d42628b5d521703fc15b9">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/41683/41683-h.zip">
+        <dcterms:isFormatOf rdf:resource="ebooks/41683"/>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0c6e7b05cb804461a5181ceaed8de5fe">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-21T10:06:06</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N32fdcc72e9604d42a1e5f1e78d99c9d1">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">394127</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="Nc305df0313bf4769add40a9c84805f6a">
+        <rdf:value>PH</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
+      </rdf:Description>
+    </dcterms:subject>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/41683.kindle.images">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1093671</dcterms:extent>
+        <dcterms:isFormatOf rdf:resource="ebooks/41683"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-20T05:20:59.377877</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nf54f46ffb5cc4e4d8dddc11161081c79">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=utf-8</rdf:value>
+          <rdf:Description rdf:nodeID="Nf53b21e0df7a4e95aa373952ec59155a">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2012-12-21T10:06:06</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/41683"/>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
   </cc:Work>
 </rdf:RDF>
